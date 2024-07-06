@@ -1,0 +1,5 @@
+services:
+  s6-cron:
+    build:
+      context: .
+      dockerfile: Dockerfile
